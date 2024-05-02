@@ -33,9 +33,7 @@
 }
 
 .section_1 header{
-    display: flex;
-    padding-bottom: 3rem;  
-    max-width: 100%;  
+    padding-bottom: 2rem;   
 }
 
 nav ul{
@@ -101,10 +99,6 @@ nav ul li a{
 }
 
 .hero-banner .social-icons i{
-    fill: linear-gradient(90deg, rgba(103,95,232,1) 13%, rgba(255,0,211,0.927608543417367) 69%);
-    /* color: #000; */
-    background-color: #fff;
     border-radius: 50%;
     padding: 10px;
-
 }
