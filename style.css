@@ -16,6 +16,9 @@
     max-width:100%;
     width:100%; 
     color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -101,4 +104,62 @@ nav ul li a{
 .hero-banner .social-icons i{
     border-radius: 50%;
     padding: 10px;
+}
+
+
+/* section 2 */
+
+.section_2{
+    display: flex;
+}
+
+.section_2 header{
+    position: relative;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section_2 header input{
+    width: 280px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #ffffffde;
+}
+
+.section_2 header input::placeholder{
+    text-transform: uppercase;
+}
+
+
+.section_2 header h1{
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.section_2 .colored_bg{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+}
+
+.section_2 .bg{
+    position: relative;
+    width: 25px;
+    background: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    z-index: 1;
+    color: white;
+}
+
+.section_2 .bg_2{
+    width: 25px;
+    background: rgba(0, 0, 0, 0.568);
+    background-blend-mode: darken;
+   
 }
