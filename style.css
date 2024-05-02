@@ -21,19 +21,67 @@
     justify-content: space-between;
 }
 
+.main_bg{
+    position: relative;
+    display: flex;
+    min-height: 100vh; 
+    width: 45%;  
+   
+}
 
 .section_1{
     position: relative;
-    padding: 3rem;
-    width: 45%;
     display: flex;
+    padding: 2.9rem; 
     flex-direction: column;
     background: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
-    min-height: 100vh;
-    z-index: 1;
     color: white;
 }
+
+.section_12{
+    width: 20%;
+    background: rgba(0, 0, 0, 0.514);
+    background-blend-mode: darken;
+}
+
+/* boxes */
+.gradient-box{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(115, 130, 226, 1) 0%,
+    rgba(241,118,255,1) 100%);
+     width: 33px;
+     height: 280px;
+     border-radius: 0 0 20px 20px;
+     translate:-15px 0;
+}
+ 
+.box2{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
+     width: 40px;
+     height: 230px;
+     border-radius: 0 0 20px 20px;
+     translate: -4px 0;
+     z-index: 1;
+}
+
+.box3{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
+    width:20px;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+    translate:25px 0;
+     z-index: 1;
+         
+}
+
 
 .section_1 header{
     padding-bottom: 2rem;   
@@ -90,7 +138,8 @@ nav ul li a{
     font-weight: 500;
     color: #fff;
     text-transform: uppercase;
-    background: linear-gradient(90deg, rgba(103,95,232,1) 13%, rgba(255,0,211,0.927608543417367) 69%);
+    background: linear-gradient(90deg, rgb(129, 125, 184) 13%,
+     rgba(255, 97, 229, 0.884) 69%);
 
 }
 
@@ -115,7 +164,7 @@ nav ul li a{
 
 .section_2 header{
     position: relative;
-    padding: 3rem;
+    padding: 2.9rem;
     display: flex;
     justify-content: space-between;
     gap: 30px;
